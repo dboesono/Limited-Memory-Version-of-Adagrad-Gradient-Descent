@@ -62,8 +62,8 @@ def backtracking(gamma, sigma, xk, dk):
 
 def gradient_descent_adagrad(init, tol, scale, memo, gamma, sigma):
     """
-    Adagrad Gradient descent method for unconstraint optimization problem given a starting point x which is a element
-    of real numbers. The algorithm will repeat itself accoding to the following procedure:
+    Adagrad Gradient descent method for unconstrainted optimization problem given a starting point x which is a element
+    of real numbers. The algorithm will repeat itself according to the following procedure:
 
     1. Define the descending direction using adaptive diagonal scaling.
     2. Using a step size strategy, choose the step length alpha using the Armijo Line Search/Backtracking strategy.
